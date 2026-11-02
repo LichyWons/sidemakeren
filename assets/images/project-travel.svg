@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Travel Blog</title>
+  <desc id="desc">Content through API</desc>
+  <rect width="1600" height="1000" fill="#111113"/>
+  <circle cx="1320" cy="160" r="300" fill="#ff6b2c" opacity=".16"/>
+  <rect x="140" y="150" width="1320" height="700" rx="40" fill="#f4f3ef"/>
+  <rect x="140" y="150" width="1320" height="72" rx="40" fill="#d9d8d3"/>
+  <circle cx="190" cy="186" r="10" fill="#ff6b2c"/>
+  <circle cx="225" cy="186" r="10" fill="#9b9b9f"/>
+  <circle cx="260" cy="186" r="10" fill="#9b9b9f"/>
+  <rect x="230" y="310" width="500" height="40" rx="20" fill="#111113"/>
+  <rect x="230" y="390" width="700" height="18" rx="9" fill="#9b9b9f"/>
+  <rect x="230" y="430" width="620" height="18" rx="9" fill="#c0bfba"/>
+  <rect x="230" y="520" width="260" height="70" rx="35" fill="#ff6b2c"/>
+  <rect x="1030" y="300" width="300" height="360" rx="30" fill="#171719"/>
+  <text x="1280" y="860" text-anchor="end" fill="#ff6b2c" font-family="Arial, sans-serif" font-size="110" font-weight="700">02</text>
+  <text x="230" y="760" fill="#111113" font-family="Arial, sans-serif" font-size="54" font-weight="700">Travel Blog</text>
+  <text x="230" y="810" fill="#67676b" font-family="Arial, sans-serif" font-size="28">Content through API</text>
+</svg>

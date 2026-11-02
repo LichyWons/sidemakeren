@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Krzysztof Bytniewski about frontend subcontracting and agency cooperation.">
+  <title>Contact — Krzysztof Bytniewski</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/content.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main-content" data-i18n="common.skip">Skip to content</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main-content">
+    <section class="page-hero section">
+      <div class="container page-hero__inner">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+        <h1 data-i18n="contact.title">Tell me what your agency needs delivered.</h1>
+        <p data-i18n="contact.lead">
+          Send the scope, deadline and expected role. I will reply with availability and the next practical step.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--bordered">
+      <div class="container contact-grid">
+        <div class="contact-details">
+          <div>
+            <span data-i18n="contact.emailLabel">Email</span>
+            <a href="mailto:hello@yourdomain.no">hello@yourdomain.no</a>
+          </div>
+          <div>
+            <span>LinkedIn</span>
+            <a href="#" aria-label="LinkedIn profile">linkedin.com/in/your-profile</a>
+          </div>
+          <div>
+            <span>GitHub</span>
+            <a href="#" aria-label="GitHub profile">github.com/your-profile</a>
+          </div>
+        </div>
+
+        <form class="contact-form" data-contact-form>
+          <div class="form-field">
+            <label for="name" data-i18n="contact.name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="company" data-i18n="contact.company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+
+          <div class="form-field">
+            <label for="email" data-i18n="contact.email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+
+          <div class="form-field">
+            <label for="projectType" data-i18n="contact.projectType">Project type</label>
+            <select id="projectType" name="projectType">
+              <option value="website" data-i18n="contact.optionWebsite">Website</option>
+              <option value="application" data-i18n="contact.optionApplication">Application</option>
+              <option value="subcontracting" data-i18n="contact.optionSubcontracting">Subcontracting</option>
+              <option value="other" data-i18n="contact.optionOther">Other</option>
+            </select>
+          </div>
+
+          <div class="form-field form-field--full">
+            <label for="message" data-i18n="contact.message">Message</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+          </div>
+
+          <button class="button button--primary button--fit" type="submit" data-i18n="contact.submit">
+            Send inquiry
+          </button>
+
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+</body>
+</html>

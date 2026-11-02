@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">Replace this file with your dark portrait</desc>
+  <rect width="1200" height="1500" fill="#0b0b0c"/>
+  <circle cx="920" cy="300" r="320" fill="#ff6b2c" opacity=".18"/>
+  <circle cx="250" cy="1230" r="380" fill="#ff6b2c" opacity=".08"/>
+  <rect x="160" y="250" width="880" height="1000" rx="440" fill="#171719"/>
+  <circle cx="600" cy="560" r="190" fill="#242428"/>
+  <path d="M300 1220c45-280 190-420 300-420s255 140 300 420" fill="#242428"/>
+  <text x="600" y="1330" text-anchor="middle" fill="#f4f3ef" font-family="Arial, sans-serif" font-size="40">Profile photo placeholder</text>
+  <text x="600" y="1390" text-anchor="middle" fill="#9b9b9f" font-family="Arial, sans-serif" font-size="28">Replace this file with your dark portrait</text>
+</svg>
